@@ -103,6 +103,32 @@
             background: #e8491d;
             transition: background 0.3s ease;
         }
+        .social-logos {
+            text-align: center; /* Centrar logos si es necesario */
+        }
+        .social-logos a img {
+            width: 96px; /* Tamaño de icono estándar */
+            height: auto;
+            margin: 0 5px; /* Espacio entre iconos */
+        }
+
+        /* Reglas de media query para la responsividad */
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+            }
+            header nav ul {
+                padding: 0;
+            }
+            header nav ul li {
+                display: block;
+                text-align: center;
+                margin-bottom: 5px;
+            }
+            .social-logos a img {
+                width: 20px; /* Más pequeño para dispositivos móviles */
+            }
+        }
         footer {
             background: #333333;
             color: white;
@@ -159,11 +185,17 @@
 
     <footer>
         <div class="container">
-            <p>Conéctate con nosotros:</p>
-            <ul>
-                <li><a href="https://www.mercadolibre.com.ar" target="_blank">MercadoLibre</a></li>
-                <li><a href="https://www.instagram.com/tu_usuario" target="_blank">Instagram</a></li>
-            </ul>
+            <p>Comprar los modelos aqui:</p>
+            <div class="social-logos">
+                <!-- MercadoLibre -->
+                <a href="https://www.mercadolibre.com.ar" target="_blank">
+                    <img src="resurces/logos/logo_mercadolibre.png" alt="MercadoLibre">
+                </a>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/tu_usuario" target="_blank">
+                    <img src="resurces/logos/logo_instagram.png" alt="Instagram">
+                </a>
+            </div>
             <p>3D Print Shop &copy; 2023</p>
         </div>
     </footer>
