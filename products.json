@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Pochita Milei",
+        "image": "img/pochitamilei.jpg",
+        "description": "Figura de acción impresa en 3D con plástico PLA de alta calidad.",
+        "price": "25.00",
+        "link": "https://articulo.mercadolibre.com.ar/MLA-1552735404-pcochita-milei-llaveros-_JM#position=1&search_layout=stack&type=item&tracking_id=3c587aa7-0e5c-4856-be7a-e266521f6a76"
+    },
+    {
+        "name": "Copa del mundo",
+        "image": "img/product2.jpg",
+        "description": "Figura de acción impresa en 3D con plástico PLA de alta calidad.",
+        "price": "15.00",
+        "link": "https://www.mercadolibre.com.ar"
+    },
+    {
+        "name": "Mario",
+        "image": "img/product3.jpg",
+        "description": "Figura de acción impresa en 3D con plástico PLA de alta calidad.",
+        "price": "15.00",
+        "link": "https://www.mercadolibre.com.ar"
+    }
+    
+]
